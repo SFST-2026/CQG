@@ -1,1 +1,4 @@
-
+# Central RNG seeds (single source of truth)
+global_seed: 123456
+numpy_seed: 123456
+python_random_seed: 123456

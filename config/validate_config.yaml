@@ -1,0 +1,23 @@
+delta_disc_threshold_pct: 50.0
+delta_total_threshold_pct: 50.0
+newton_residual_threshold: 1.0e-8
+wfaktor_max_threshold: 10.0
+max_epsratio_interpretable: 0.10
+max_epsratio_stress: 0.30
+# Numerical rerun parameters for remediation
+gr_id:
+  refine_max_step_factor: 0.5   # max_step -> factor*max_step
+  epsabs: 1.0e-12
+  epsrel: 1.0e-12
+  max_iter: 400
+  newton_damping: true
+# Baseline solver params (should match sfst_qfis_repro defaults unless overridden)
+solver:
+  r0: 1.0e-3
+  rmax: 3.0e6
+  max_step: 5.0e4
+  rtol: 3.0e-6
+  atol: 1.0e-9
+  n_points: 30
+  rho_min: 5.0e14
+  rho_max: 2.0e16
