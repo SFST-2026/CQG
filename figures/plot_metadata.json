@@ -1,0 +1,26 @@
+{
+  "figure": "FigX",
+  "panels": [
+    "convergence",
+    "epsratio_hist",
+    "richardson_trace"
+  ],
+  "git_commit": "<<GIT_COMMIT_HASH>>",
+  "docker_digest": "sha256:<<DOCKER_SHA256_DIGEST>>",
+  "seed": "<<RNG_SEED>>",
+  "data_files": [
+    "data/figX_inputs/convergence.csv",
+    "data/figX_inputs/epsratio_summary.csv",
+    "data/figX_inputs/residual_traces.h5"
+  ],
+  "script": "scripts/plot_figureX.py",
+  "created_by": "Author Name",
+  "created_on": "YYYY-MM-DD",
+  "generated_at_utc": "2026-02-21T17:15:30Z",
+  "data_files_used": [
+    "data/examples/convergence.csv",
+    "data/examples/epsratio_summary.csv",
+    "data/examples/residual_traces.h5"
+  ],
+  "command": "python scripts/plot_figureX.py --data-dir data/examples --out-dir figures --observable Lambda14"
+}
