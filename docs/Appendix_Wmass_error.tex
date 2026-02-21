@@ -1,0 +1,76 @@
+% Appendix_Wmass_error.tex
+% CDF-II W-boson mass shift: error propagation + systematic breakdown (Table 2)
+
+\section*{Appendix X.Y Error propagation and inferred fractional mass shift}
+\label{app:Wmass_error}
+
+
+\subsection*{Speculative cross-sector comparison (order-of-magnitude target)}
+\textbf{Scope.} The calculation in this appendix is purely an empirical summary of the tension between the CDF II
+measurement and a representative SM expectation. Any linkage to SFST/QFIS is \emph{not} established here:
+a gauge-invariant operator identification and an EFT matching computation of the induced correction to the transverse
+$W$ self-energy (including scheme dependence and correlations) would be required. We therefore use the extracted
+fractional shift only as an order-of-magnitude numerical target for future work.
+
+
+\textbf{Input values.}
+\begin{align*}
+M_{\mathrm{obs}} &= 80.4335\ \mathrm{GeV}, & \sigma_{\mathrm{obs}} &= 0.0094\ \mathrm{GeV},\\
+M_{\mathrm{SM}}  &= 80.357\ \mathrm{GeV},  & \sigma_{\mathrm{SM}}  &= 0.0060\ \mathrm{GeV}.
+\end{align*}
+
+\textbf{Absolute difference and combined uncertainty.}
+\begin{align*}
+\Delta M &= M_{\mathrm{obs}} - M_{\mathrm{SM}} = 0.0765\ \mathrm{GeV},\\
+\sigma_{\Delta M} &= \sqrt{\sigma_{\mathrm{obs}}^{2} + \sigma_{\mathrm{SM}}^{2}}
+= \sqrt{(0.0094)^{2} + (0.0060)^{2}} \approx 0.01115\ \mathrm{GeV}.
+\end{align*}
+
+\textbf{Significance.}
+\[
+\mathrm{Significance}\,(\sigma)=\frac{\Delta M}{\sigma_{\Delta M}}
+\approx \frac{0.0765}{0.01115} \approx 6.86\ \sigma.
+\]
+
+\textbf{Fractional shift and uncertainty.}
+\begin{align*}
+\delta &\equiv \frac{\Delta M}{M_{\mathrm{SM}}} \approx \frac{0.0765}{80.357} \approx 9.52\times 10^{-4},\\
+\sigma_{\delta} &\approx \frac{\sigma_{\Delta M}}{M_{\mathrm{SM}}} \approx \frac{0.01115}{80.357} \approx 1.39\times 10^{-4},\\
+\boxed{\delta &= (9.52 \pm 1.39)\times 10^{-4}.}
+\end{align*}
+
+\textbf{Comment on error treatment.}
+The combination above assumes statistical independence of the experimental and theory/global-fit uncertainties. If correlations exist between experimental systematics and theory inputs, the full covariance must be used.
+
+\vspace{1em}
+
+\textbf{Operator matching caveat (electroweak sector).}  
+Relating the empirical fractional shift \(\delta\) to SFST requires specifying the gauge-invariant operator through which SFST couples to the electroweak sector and computing the induced correction to the transverse \(W\) self-energy, e.g. \(\delta M_W \sim \Re\,\Pi_{WW}(M_W^2)/(2M_W^2)\). In this manuscript we do \emph{not} perform such an EFT matching calculation. Instead we use a parametrized overlap factor to encode localization/participation differences between condensed-matter response (many-electron medium) and a localized gauge-boson excitation, and we restrict our claim to an \emph{order-of-magnitude} comparison. A first-principles matching (including scheme dependence) is left for future work.
+
+\textbf{CDF II uncertainty breakdown (Table 2 in CDF II).}
+The CDF II total uncertainty \(\sigma_{\mathrm{obs}}=9.4\,\mathrm{MeV}\) comprises a statistical component (W statistics) of \(6.4\,\mathrm{MeV}\) and a systematic component of \(6.9\,\mathrm{MeV}\), added in quadrature.
+
+\begin{center}
+\begin{tabular}{l c c}
+\hline
+\textbf{Source} & \textbf{Contribution [MeV]} & \textbf{Contribution [GeV]} \\
+\hline
+Lepton energy scale         & 3.0 & 0.0030 \\
+Lepton energy resolution    & 1.2 & 0.0012 \\
+Recoil energy scale         & 1.2 & 0.0012 \\
+Recoil energy resolution    & 1.8 & 0.0018 \\
+Lepton efficiency           & 0.4 & 0.0004 \\
+Lepton removal              & 1.2 & 0.0012 \\
+Backgrounds                 & 3.3 & 0.0033 \\
+\(p_T^Z\) model              & 1.8 & 0.0018 \\
+\(p_T^W/p_T^Z\) model        & 1.3 & 0.0013 \\
+Parton distributions (PDFs) & 3.9 & 0.0039 \\
+QED radiation               & 2.7 & 0.0027 \\
+\hline
+CDF systematic (quadrature) & 6.9 & 0.0069 \\
+CDF statistical (W stats)   & 6.4 & 0.0064 \\
+Total (stat \(\oplus\) syst) & 9.4 & 0.0094 \\
+\hline
+\end{tabular}
+\end{center}
+

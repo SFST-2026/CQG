@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Variant A vs Variant B (reporting policy). Headline numbers in the main text are always reported from Variant A; Variant B is exploratory unless an independent source-operator matching coefficient is established.}
+\label{tab:variant_policy}
+\begin{tabular}{p{0.18\linewidth} p{0.38\linewidth} p{0.38\linewidth}}
+\hline
+Item & Variant A (headline; controlled default) & Variant B (exploratory sensitivity)\\
+\hline
+Insertion rule & Inertial-only insertion (\texttt{include\_in\_gravity=false}). & Inertial + source insertion (\texttt{include\_in\_gravity=true}); sensitivity-only.\\
+Where used & All headline tables/figures and quoted constraints. & Supplement only; never for headline claims unless an independent source-operator matching coefficient is provided.\\
+Numerical acceptance & Acceptance thresholds enforced (epsratio banding, Richardson $p$, residual traces). & Same validator applied; diagnostic/excluded runs documented as dossiers.\\
+Interpretation & Model-independent EFT/TOV result. & Exploratory cross-check; may double-count without separate EFT operator bookkeeping.\\
+\hline
+\end{tabular}
+\end{table}
