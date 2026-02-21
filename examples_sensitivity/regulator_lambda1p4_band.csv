@@ -1,0 +1,11 @@
+# Synthetic example: replace with real regulator scan outputs
+# columns: regulator_id,sigma,lambda14
+regA,0.00,420
+regA,0.03,455
+regA,0.06,510
+regB,0.00,410
+regB,0.03,445
+regB,0.06,500
+regC,0.00,430
+regC,0.03,470
+regC,0.06,525

@@ -1,1 +1,10 @@
-
+# Synthetic example for plotting: replace with real outputs when available
+# columns: eos,sigma,lambda14
+SLy,0.00,400
+SLy,0.02,430
+SLy,0.04,470
+SLy,0.06,520
+AP4,0.00,520
+AP4,0.02,560
+AP4,0.04,610
+AP4,0.06,680
