@@ -1,0 +1,10 @@
+# Synthetic GW170817-like posterior sample template.
+# Replace with real posterior samples (e.g., from GWTC / GWOSC) for a true reweight.
+# columns: lambda14,weight
+400,1.0
+450,1.0
+500,1.0
+550,1.0
+600,1.0
+650,1.0
+700,1.0
