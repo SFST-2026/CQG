@@ -42,6 +42,16 @@ For the exact snapshot identifiers (Docker digest, git/archival commit-equivalen
 
 The paper’s headline results use **Variant A** (inertial-only insertion). **Variant B** is retained strictly as an exploratory sensitivity toggle and is documented in the Supplement.
 
+## EOS/Prior sanity grid (Supplement)
+
+To generate the compact EOS/Prior sanity table used in the Supplement, run:
+
+```bash
+make sanity_table
+```
+
+If `outputs/runs_summary.csv` is not present, the Makefile will automatically generate it via `scripts/build_runs_summary.py` before building the table.
+
 
 ## Note on epsratio(r) profiles
 
