@@ -1,4 +1,4 @@
-# Reviewer Addendum (One Page)
+# readers Addendum (One Page)
 
 This addendum summarizes (i) **what changes relative to the standard theory**, (ii) **how headline results are reported (Quadratic/MC with 5–95% bands)**, and (iii) **how outliers/diagnostics are audited**, with direct pointers to repository artifacts.
 
@@ -27,7 +27,7 @@ To avoid isolated linear percent-claims, headline statements are reported as:
 - **Quadratic-fit central tendency** across the \(\sigma\)-grid (min/median/max), and
 - **Monte-Carlo uncertainty bands** (5–95%) from the run-level envelopes.
 
-Paired headline tables (reviewer-facing):
+Paired headline tables (reader-facing):
 - Including DIAGNOSTIC runs: `outputs/headline_with_diagnostics.csv`
 - Excluding DIAGNOSTIC runs: `outputs/headline_without_diagnostics.csv`
 

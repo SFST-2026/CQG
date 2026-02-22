@@ -1,6 +1,6 @@
-# Packaging generated artifacts for reviewer download (English, copy/paste)
+# Packaging generated artifacts for readers download (English, copy/paste)
 
-This repository produces figures/tables/logs/scripts that are helpful for reviewers. The steps below collect them into a single archive, generate checksums, and optionally publish the archive via a GitHub Release and/or Zenodo.
+This repository produces figures/tables/logs/scripts that are helpful for readers. The steps below collect them into a single archive, generate checksums, and optionally publish the archive via a GitHub Release and/or Zenodo.
 
 ## Quick option: one-command packaging
 
@@ -26,7 +26,7 @@ cp -r scripts         release_artifacts/scripts || true
 
 # Optional: add a short README describing contents
 cat > release_artifacts/README.txt <<'EOF'
-Repository snapshot for reviewer download.
+Repository snapshot for readers download.
 Included:
 - figures/deltaLambda_sigma_SLy_AP4.png
 - figures/richardson_SLy.png
@@ -74,7 +74,7 @@ gh release create v1.0.0-submission sfst-qfis-release.zip sfst-qfis-release.tar.
 3. Fill metadata (title, authors, description, license).
 4. Zenodo mints a DOI. Add it to the manuscript’s Data & Code Availability section.
 
-## 6) Minimal reviewer email workflow
+## 6) Minimal readers email workflow
 - Provide the GitHub Release URL or the Zenodo DOI.
 - Include the SHA256 line from `sfst-qfis-release.zip.sha256`.
 - Verification:

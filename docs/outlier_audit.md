@@ -15,4 +15,4 @@ For every DIAGNOSTIC/EXCLUDED run we provide:
 - `outputs/diagnostics/<EOS>_<case>/wfaktor.png`
 - `outputs/diagnostics/<EOS>_<case>/diagnosis.txt`
 
-And we record a machine-readable entry in `outputs/audit_trail.csv`.
+And I record a machine-readable entry in `outputs/audit_trail.csv`.

@@ -1,6 +1,6 @@
-# Reviewer risk-closure note (one page)
+# readers risk-closure note (one page)
 
-This note summarizes how the submission closes the three remaining reviewer risks: **(i) EFT operator bookkeeping / Variant‑B gate**, **(ii) outliers with δ_total ≫ 50%**, and **(iii) the Ambjørn–Watabiki (AW) connection**. It is intentionally short and points to auditable artifacts.
+This note summarizes how the submission closes the three remaining readers risks: **(i) EFT operator bookkeeping / Variant‑B gate**, **(ii) outliers with δ_total ≫ 50%**, and **(iii) the Ambjørn–Watabiki (AW) connection**. It is intentionally short and points to auditable artifacts.
 
 ## 1) EFT operator bookkeeping and Variant‑B gate (closed)
 **What is controlled (headline basis).** Headline claims use **Variant A (inertial‑only insertion)** and only **ACCEPTED** runs as classified by `scripts/validate_run.py`.
@@ -41,7 +41,7 @@ This follows from integrating out the flux field coupled via the interaction ope
   Script `scripts/toy_model_chi_ou.py`, outputs `outputs/toy_model_chi/chi_toy_scan.csv`, figure `figures/toy_model_chi/chi_toy_scaling.png`
 - Precise AW scope and citations: `supplement/SUPPLEMENT_TOYMODEL_CHI_AW.md`
 
-## 4) Practical reviewer checklist (quick)
+## 4) Practical readers checklist (quick)
 - Headline uses Variant A + ACCEPTED only: `outputs/headline_without_diagnostics.csv`
 - Transparency including diagnostics: `outputs/headline_with_diagnostics.csv`
 - Outlier audit index: `outputs/audit_index.csv`
@@ -50,7 +50,7 @@ This follows from integrating out the flux field coupled via the interaction ope
 
 
 
-## Added for reviewer risk closure (v64)
+## Added for readers risk closure (v64)
 - Main figure: outputs/figures/lambda1p4_vs_sigma_obsband_sly_ap4.png (quadratic/MC + illustrative observational band; Variant A only).
 - Main figure: outputs/figures/richardson_triplet_sly_ap4_poly2.png (three Richardson plots).
 - Main table CSV: outputs/tables/compact_comparison_table_sly_ap4.csv.

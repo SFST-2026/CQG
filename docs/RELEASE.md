@@ -119,7 +119,7 @@ Copy‑paste template:
 
 ---
 
-## 5) Recommended Zenodo upload contents (reviewer-friendly)
+## 5) Recommended Zenodo upload contents (readers-friendly)
 Include at minimum:
 - `outputs/headline_with_diagnostics.csv`
 - `outputs/headline_without_diagnostics.csv`
@@ -149,6 +149,6 @@ sha256sum -c SHA256SUMS.txt | head
 - All δ_total>50% cases have either:
   - a resolved refinement trail (`refinement_log.json` showing RESOLVED/STRESS_RESOLVED), or
   - an explicit exclusion + audit entry.
-- The one-page reviewer checklist exists: `docs/REVIEWER_RISK_CLOSURE_ONEPAGE.md`
+- The one-page readers checklist exists: `docs/REVIEWER_RISK_CLOSURE_ONEPAGE.md`
 - Refinement protocol exists: `README_refinement.md`
 

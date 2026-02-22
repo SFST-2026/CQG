@@ -48,4 +48,4 @@ Before making any speculative “match” claim in the manuscript:
 4. Re-run with tighter tolerances (rtol/atol) to confirm stability.
 5. Repeat with at least one alternative EOS family to quantify EOS-systematic shifts.
 
-See `SUBMISSION_CHECKLIST.md` for the reviewer-facing checklist.
+See `SUBMISSION_CHECKLIST.md` for the reader-facing checklist.

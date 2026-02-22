@@ -1,6 +1,6 @@
 # Formal Appendix — EFT matching, power counting, and operator bookkeeping
 
-This appendix is reviewer-facing: it isolates the EFT assumptions and *bookkeeping* used to interpret the regulator scan results.
+This appendix is reader-facing: it isolates the EFT assumptions and *bookkeeping* used to interpret the regulator scan results.
 
 ## A.1  What is being matched?
 We consider a low-energy description of neutron-star structure in GR (TOV) augmented by vacuum-induced inertial terms.
@@ -112,7 +112,7 @@ We cite Ambjørn–Watabiki as a *motivation* for considering discrete/fractal m
 
 
 
-## A.6  Operator separation and why Variant B needs an independent matching coefficient (reviewer-critical)
+## A.6  Operator separation and why Variant B needs an independent matching coefficient (readers-critical)
 
 ### A.6.1 Minimal operator basis (schematic)
 To avoid double counting, we distinguish **inertial renormalization** from **source insertion** at the EFT level. A minimal schematic basis is:
@@ -133,7 +133,7 @@ To avoid double counting, we distinguish **inertial renormalization** from **sou
 
 **Bookkeeping rule used in this work:** we treat Variant A as the controlled baseline because it corresponds to a single inertial operator.
 We keep Variant B only as a **sensitivity check** (`variant=B_exploratory`) and we do **not** use it for headline interpretation.
-A reviewer can therefore read Variant B as: “what would happen if an additional source operator of comparable size existed?”
+A readers can therefore read Variant B as: “what would happen if an additional source operator of comparable size existed?”
 
 ### A.6.2 Consequence for interpretation
 - Headline claims (Abstract/Main) are based on **accepted Variant‑A runs** only (see `outputs/accepted.csv`).

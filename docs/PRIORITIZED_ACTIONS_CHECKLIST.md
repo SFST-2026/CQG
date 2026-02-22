@@ -15,7 +15,7 @@ This checklist summarizes the remaining high-leverage actions before submission.
    Keep the compact sensitivities table (SLy/AP4) and include three representative Richardson plots with Supplement links.
 
 3a) **EOS / prior sensitivity (headline numbers)**
-   Ensure the Supplement contains **at least 2–3 representative EOS/prior checks** for the headline results (e.g., SLy/AP4 + one additional representative EOS family or a soft/stiff bracket; plus a narrow vs wide σ-prior sanity overlay for the demo). Missing this is a common reviewer request.
+   Ensure the Supplement contains **at least 2–3 representative EOS/prior checks** for the headline results (e.g., SLy/AP4 + one additional representative EOS family or a soft/stiff bracket; plus a narrow vs wide σ-prior sanity overlay for the demo). Missing this is a common readers request.
 
 3b) **Provenance completeness (IDs & links)**
    Ensure all provenance fields are complete and cross-linked, especially **data snapshot IDs** (`data/snapshots/snapshot_c04378d8b099.tar.gz.tar.gz`) and any archive identifiers referenced in the manuscript/Supplement. Incomplete IDs often trigger follow-up questions.

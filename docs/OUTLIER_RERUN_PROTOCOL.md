@@ -2,7 +2,7 @@
 
 This repository treats **any run with δ_total > 50% in any headline observable** (M_max, R_1.4, Λ_1.4) as *high risk* for headline reporting.
 
-## Policy (reviewer-facing)
+## Policy (reader-facing)
 1. **Attempt stabilization** using:
    - grid refinement `n → 2n`,
    - tighter tolerances `epsabs=epsrel=1e-12`,
