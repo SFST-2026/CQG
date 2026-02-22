@@ -1,0 +1,23 @@
+{
+  "archive_id": "5af6ad306d4708984415636bdf8b4a5fff1cb23b",
+  "command": "python scripts/plot_figureX.py --data-dir data/figX_inputs --out-dir figures --dpi 600 --seed 123456",
+  "docker_digest": "sha256:c18878630415a7e3598158d560cf7e615dba8967bdc8283472a610a7e362bedc",
+  "docker_digest_sha256": "c18878630415a7e3598158d560cf7e615dba8967bdc8283472a610a7e362bedc",
+  "figure": "Figure X",
+  "generated_utc": "2026-02-21T15:53:04Z",
+  "git_commit": "5af6ad306d4708984415636bdf8b4a5fff1cb23b",
+  "inputs": [
+    "data/figX_inputs/convergence.csv",
+    "data/figX_inputs/epsratio_summary.csv",
+    "data/figX_inputs/residual_traces.h5"
+  ],
+  "outputs": [
+    "figures/figX_panelA_convergence.pdf",
+    "figures/figX_panelB_epsratio.pdf",
+    "figures/figX_panelC_residuals.pdf",
+    "figures/figX_panelA_convergence.png",
+    "figures/figX_panelB_epsratio.png",
+    "figures/figX_panelC_residuals.png"
+  ],
+  "seed": "123456"
+}

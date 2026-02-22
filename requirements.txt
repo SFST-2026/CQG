@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+matplotlib
+python-docx
+PyYAML>=6.0
+h5py
