@@ -1,1 +1,20 @@
+# precision_tests/data/precision_inputs.yaml
+# External precision observables used as conservative constraints / cross-checks.
+# NOTE: These numbers are *inputs*; SFST/QFIS-to-SM matching is not assumed here.
 
+a_mu:
+  value: 116592059e-11   # a_mu(exp)
+  sigma: 22e-11
+  units: "dimensionless"
+  note: "Muon g-2 world average (Fermilab+BNL)."
+
+w_mass_cdf2:
+  value_GeV: 80.4335
+  sigma_GeV: 0.0094
+  note: "CDF II 2022 W mass."
+
+R_K_highq2:
+  value: 1.079
+  sigma_stat: 0.043
+  sigma_syst: 0.028
+  note: "Representative recent LHCb update in high-q^2 region (see manuscript Appendix P)."
