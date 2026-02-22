@@ -1,0 +1,6 @@
+run_id,status,reason_code,reason_detail,data_ids,dossier_path
+EXAMPLE_FAIL_001,EXCLUDED,NEWTON_NONCONVERGENCE,Reached max iterations without meeting residual tolerance,run_output:outputs/runs/EXAMPLE_FAIL_001; logs:supplement/excluded_runs/EXAMPLE_FAIL_001/diagnosis.txt,EXAMPLE_FAIL_001/
+EXAMPLE_DIAG_002,DIAGNOSTIC,EPSRATIO_STRESS,max_r|epsratio| exceeded stress-test threshold (0.30),run_output:outputs/runs/EXAMPLE_DIAG_002; logs:supplement/excluded_runs/EXAMPLE_DIAG_002/diagnosis.txt,EXAMPLE_DIAG_002/
+Poly2toy_A_baseline,EXCLUDED,OUTSIDE_PERTURBATIVE_REGIME,Toy EOS Poly2 exhibited numerical/perturbative breakdown (see epsratio/stability diagnostics). Excluded from headline inference.,row:runs_summary.csv:run_id=Poly2toy_A_baseline; source:outputs/excluded.csv,Poly2toy_A_baseline/
+Poly2toy_B_legacy,EXCLUDED,OUTSIDE_PERTURBATIVE_REGIME,Toy EOS Poly2 exhibited numerical/perturbative breakdown (see epsratio/stability diagnostics). Excluded from headline inference.,row:runs_summary.csv:run_id=Poly2toy_B_legacy; source:outputs/excluded.csv,Poly2toy_B_legacy/
+Poly2toy_C_sigma_chi,EXCLUDED,OUTSIDE_PERTURBATIVE_REGIME,Toy EOS Poly2 exhibited numerical/perturbative breakdown (see epsratio/stability diagnostics). Excluded from headline inference.,row:runs_summary.csv:run_id=Poly2toy_C_sigma_chi; source:outputs/excluded.csv,Poly2toy_C_sigma_chi/
