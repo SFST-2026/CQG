@@ -1,13 +1,13 @@
 # Major-revision risk checklist (prioritized) and mitigation
 
-This note is intended as a **reviewer-facing checklist**: it enumerates the remaining major-revision triggers and the concrete, auditable mitigation steps implemented in this repository.
+This note is intended as a **reader-facing checklist**: it enumerates the remaining major-revision triggers and the concrete, auditable mitigation steps implemented in this repository.
 
 ## Major-revision triggers (prioritized)
 
 1. **Unresolved diagnostic runs** without documented stabilization attempts or a clean, auditable exclusion.
 2. **Variant B in headline reporting** without an independent source-matching coefficient (`c_src`) **or** without clear labeling as exploratory.
 3. **Missing compact main figures**: (i) ΔΛ₁.₄(σ) comparison for SLy/AP4 with Quadratic/MC envelopes and a conservative observational overlay, and (ii) three Richardson convergence plots in the Main.
-4. **Insufficient toy calibration / robustness tests**: reviewers often request an explicit, reproducible χ-calibration (or additional numerical stress tests).
+4. **Insufficient toy calibration / robustness tests**: readers often request an explicit, reproducible χ-calibration (or additional numerical stress tests).
 
 ## Mitigation steps (highest leverage first)
 
