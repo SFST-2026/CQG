@@ -1,1 +1,13 @@
+Run-ID: EXAMPLE_FAIL_001
+Status: EXCLUDED/DIAGNOSTIC
+Exclusion reason: NEWTON_NONCONVERGENCE
+Detail: Reached max iterations without meeting residual tolerance
 
+Key diagnostic:
+- max_epsratio: N/A
+
+Raw output (relative path): outputs/runs/EXAMPLE_FAIL_001/
+
+Notes:
+- This dossier is generated to document exclusion/diagnostic handling.
+- For full context see supplement/excluded_runs/index.csv and the repository README.
