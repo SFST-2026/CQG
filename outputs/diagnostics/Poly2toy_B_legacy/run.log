@@ -1,0 +1,17 @@
+run_id=Poly2toy_B_legacy
+timestamp=2026-02-17T18:25:07+00:00
+status=diagnostic
+EOS=Poly2(toy)
+case=B_legacy
+variant=B_exploratory
+sigma=0.06
+chi=1.0
+include_in_gravity=True
+Mmax=2.240801550525781
+R_1.4=22.0803882451141
+Lambda_1.4=15975.016008173588
+Delta_Lambda14_pct=-27.07047819412941
+delta_total_Lambda14_pct=5.15736558156486e-06
+max_epsratio=1.9687554598785826e-08
+wfaktor_max=1.9687554598785826e-08
+triggered_rules=delta_total_gt_threshold:1000000000.0
