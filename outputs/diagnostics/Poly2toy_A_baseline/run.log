@@ -1,0 +1,17 @@
+run_id=Poly2toy_A_baseline
+timestamp=2026-02-17T18:25:03+00:00
+status=diagnostic
+EOS=Poly2(toy)
+case=A_baseline
+variant=A
+sigma=0.0
+chi=1.0
+include_in_gravity=False
+Mmax=2.347514808348564
+R_1.4=22.963314765525485
+Lambda_1.4=21904.73159922413
+Delta_Lambda14_pct=0.0
+delta_total_Lambda14_pct=6.1618081285369e-06
+max_epsratio=0.0
+wfaktor_max=0.0
+triggered_rules=delta_total_gt_threshold:1000000000.0
