@@ -17,21 +17,21 @@ DOCKER_IMAGE ?= sfst-qfis:local
 .NOTPARALLEL: release
 
 docker_build:
-	@echo "Building Docker image $(DOCKER_IMAGE)"
-	docker build -t $(DOCKER_IMAGE) .
+		@echo "Building Docker image $(DOCKER_IMAGE)"
+		docker build -t $(DOCKER_IMAGE) .
 
 figX:
-	@mkdir -p figures
-	python3 scripts/plot_figureX.py --data-dir data/examples --out-dir figures --observable Lambda14 --dpi 600 --emit-panels-only
+		@mkdir -p figures
+		python3 scripts/plot_figureX.py --data-dir data/examples --out-dir figures --observable Lambda14 --dpi 600 --emit-panels-only
 
 figures: figX
-	@echo "Figures written to ./figures"
+		@echo "Figures written to ./figures"
 
 provenance:
-	python3 scripts/update_provenance.py --docker-image $(DOCKER_IMAGE)
+		python3 scripts/update_provenance.py --docker-image $(DOCKER_IMAGE)
 
 sha256sums:
-	bash scripts/make_sha256sums.sh
+		bash scripts/make_sha256sums.sh
 
 sanity:
 	@echo "Running quick sanity demos (lightweight)"
@@ -39,8 +39,8 @@ sanity:
 	python3 scripts/gw170817_reweight_demo.py \
 		--posterior data/examples_gw/gw170817_like_posterior.csv \
 		--sigma 0.02 \
-		--out outputs/sanity/gw170817_demo.csv || true
-	python3 scripts/prior_sanity_demo.py --out outputs/sanity/prior_demo.csv || true
+		--out outputs/sanity/gw170817_demo || true
+	python3 scripts/prior_sanity_demo.py --out outputs/sanity/prior_demo || true
 
 
 run:
@@ -74,12 +74,11 @@ scan_gGamma_small:
 
 # Build compact EOS/prior sanity table for Supplement
 sanity_table:
-	@echo "Building EOS/Prior sanity grid (requires outputs/runs_summary.csv)"
-	@if [ ! -f outputs/runs_summary.csv ]; then \
-		echo "outputs/runs_summary.csv not found; generating it via scripts/build_runs_summary.py"; \
-		python3 scripts/build_runs_summary.py; \
-	fi
-	python3 scripts/build_eos_prior_sanity_table.py --runs-summary outputs/runs_summary.csv
+	python scripts/build_eos_prior_sanity_table.py
 
 validate_plot_metadata:
 	python scripts/validate_plot_metadata.py --allow-placeholders
+
+.PHONY: headline_bias_check
+headline_bias_check:
+	python scripts/check_headline_bias_exclusions.py
