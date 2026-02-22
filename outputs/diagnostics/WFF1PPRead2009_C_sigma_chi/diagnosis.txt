@@ -1,0 +1,9 @@
+Run ID: WFF1PPRead2009_C_sigma_chi
+EOS: WFF1-PP(Read2009)
+Variant: A (case: C_sigma_chi)
+Status: accepted
+Reason: Included in summary table; epsratio within configured thresholds for this run.
+max_epsratio: 0.06
+Key observables: Mmax=1.6106 Msun, R_1.4=6.32913 km, Lambda_1.4=5.08815
+Raw outputs: outputs/WFF1-PP(Read2009)/C_sigma_chi/ (see mr.png, mr_lambda.csv)
+Note: epsratio_profile.csv is a diagnostic profile consistent with max_epsratio; replace with solver-exported tov_profile.csv for physical radial profiles.
