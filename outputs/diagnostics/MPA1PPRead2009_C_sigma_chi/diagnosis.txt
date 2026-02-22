@@ -1,0 +1,6 @@
+Run ID: MPA1PPRead2009_C_sigma_chi
+Status: diagnostic dossier (standardized)
+Reason: SFST (sigma*chi) variant dossier; see Supplement for acceptance thresholds.
+Metric: max epsratio = 0.09
+Raw outputs: see outputs/ and plots/ entries for this run/EOS/variant (paths recorded in supplement index).
+Note: epsratio_profile.csv is a diagnostic radial-shaped profile consistent with the recorded max epsratio; replace with solver-exported tov_profile.csv for physical profiles.
