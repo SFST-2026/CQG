@@ -1,1 +1,18 @@
+run_id: Poly2toy_B_legacy
+EOS: Poly2(toy)
+status: excluded
+sigma: 0.06
+chi: 1.0
 
+Summary:
+- Classified as excluded by automated validator.
+- max|epsratio| = 1.96876e-08
+- delta_total (proxy) = 1e+09 %
+
+Checks recorded:
+- epsratio gate: PASS
+- Richardson order p: see outputs/convergence_summary.csv if available.
+- Tight tolerance rerun: recommended for excluded/diagnostic runs.
+
+Interpretation:
+- These runs are retained for transparency and are not used for headline results.
