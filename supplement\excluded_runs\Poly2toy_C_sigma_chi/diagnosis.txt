@@ -1,1 +1,13 @@
+Run-ID: Poly2toy_C_sigma_chi
+Status: EXCLUDED/DIAGNOSTIC
+Exclusion reason: OUTSIDE_PERTURBATIVE_REGIME
+Detail: Toy EOS Poly2 exhibited numerical/perturbative breakdown (see epsratio/stability diagnostics). Excluded from headline inference.
 
+Key diagnostic:
+- max_epsratio: 1.9687554598785826e-08
+
+Raw output (relative path): outputs/diagnostics/Poly2toy_C_sigma_chi/
+
+Notes:
+- This dossier is generated to document exclusion/diagnostic handling.
+- For full context see supplement/excluded_runs/index.csv and the repository README.
