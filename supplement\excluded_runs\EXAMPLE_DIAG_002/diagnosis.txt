@@ -1,1 +1,13 @@
+Run-ID: EXAMPLE_DIAG_002
+Status: EXCLUDED/DIAGNOSTIC
+Exclusion reason: EPSRATIO_STRESS
+Detail: max_r|epsratio| exceeded stress-test threshold (0.30)
 
+Key diagnostic:
+- max_epsratio: N/A
+
+Raw output (relative path): outputs/runs/EXAMPLE_DIAG_002/
+
+Notes:
+- This dossier is generated to document exclusion/diagnostic handling.
+- For full context see supplement/excluded_runs/index.csv and the repository README.
