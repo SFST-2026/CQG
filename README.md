@@ -42,3 +42,21 @@ For the exact snapshot identifiers (Docker digest, git/archival commit-equivalen
 
 The paper’s headline results use **Variant A** (inertial-only insertion). **Variant B** is retained strictly as an exploratory sensitivity toggle and is documented in the Supplement.
 
+
+## Note on epsratio(r) profiles
+
+The repository currently includes **diagnostic epsratio(r) profiles** under:
+
+`outputs/diagnostics/<run_id>/epsratio_profile.csv`
+
+These curves are intended as *numerical/perturbativity diagnostics* for FigX and
+are generated from the available run summaries (i.e. they preserve each run’s
+`max epsratio`). If you want **physical radial epsratio(r) profiles**, you must
+export a *radial TOV profile dump* from your integrator (columns `r_km`,
+`eps_ref`, `eps_vac_inertial`) as:
+
+`outputs/diagnostics/<run_id>/tov_profile.csv`
+
+and then run:
+
+`python scripts/compute_epsratio_profile_from_tov.py --in outputs/diagnostics/<run_id>/tov_profile.csv --outdir outputs/diagnostics/<run_id>`
