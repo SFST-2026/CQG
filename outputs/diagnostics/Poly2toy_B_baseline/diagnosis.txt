@@ -1,0 +1,43 @@
+Run ID: Poly2toy_B_legacy
+EOS: Poly2(toy)
+Case: B_legacy
+Variant: B_exploratory
+Status: EXCLUDED
+
+Triggered rules:
+- delta_total_gt_threshold:1000000000.0
+
+Observed summary:
+- sigma = 0.06
+- chi = 1.0
+- include_in_gravity = True
+- Mmax = 2.240801550525781
+- R_1.4 = 22.0803882451141
+- Lambda_1.4 = 15975.016008173588
+- Delta_Lambda14_pct = -27.07047819412941
+- delta_total_Lambda14_pct = 5.15736558156486e-06
+- max_epsratio = 1.9687554598785826e-08
+- wfaktor_max = 1.9687554598785826e-08
+- baseline_max_step = 50000.0
+- refined_max_step = 25000.0
+- baseline_rtol = 3e-06
+- refined_rtol = 1e-08
+- baseline_atol = 1e-09
+- refined_atol = 1e-11
+
+Remediation attempts (policy):
+- Triggered (at least one δ_total component > 50%).
+- Suggested rerun settings: grid refinement n→2n; epsabs=epsrel=1e-12; max_iter=400; Newton damping ON.
+- This repository snapshot records the exclusion decision because the toy Poly2 EOS produced non-physical/inconsistent Mmax and R1.4 deltas under the baseline discretization; see the audit index.
+
+Disposition:
+- I exclude this run from primary headline statistics (EXCLUDED) and retain it in the audit trail; a rerun under the remediation settings above is required before re-inclusion.
+- See audit_index.csv/audit_trail.csv for machine-readable indexing of this decision.
+
+Timestamp: 2026-02-17T18:25:07+00:00
+
+
+Remediation note:
+- The readers-recommended stabilization configuration is recorded for reproducibility: grid refinement n→2n, epsabs=epsrel=1e-12, max_iter=400, Newton damping on.
+- In this snapshot, the existing refinement ladder already yields non-finite/unstable δ_total for Mmax and R1.4 (placeholder-large), so the run is treated as non-stabilized and excluded.
+- Future compute runs should re-execute this case under the remediation configuration and update this file with the outcome.

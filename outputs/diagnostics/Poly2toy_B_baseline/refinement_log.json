@@ -1,0 +1,70 @@
+[
+  {
+    "timestamp": "2026-02-17T20:19:27Z",
+    "status": "START",
+    "eos": "UNKNOWN",
+    "sigma": 0.0
+  },
+  {
+    "timestamp": "2026-02-17T20:19:27Z",
+    "status": "ATTEMPT_START",
+    "attempt": 1,
+    "run_tag": "Poly2toy_B_legacy_ref1_gf1.5_nt1e-06",
+    "grid_factor": 1.5,
+    "newton_tol": 1e-06,
+    "backend": "wrapper"
+  },
+  {
+    "timestamp": "2026-02-17T20:19:27Z",
+    "status": "ATTEMPT_RESULT",
+    "attempt": 1,
+    "run_tag": "Poly2toy_B_legacy_ref1_gf1.5_nt1e-06",
+    "converged": false,
+    "max_epsratio": 9.99,
+    "delta_total_max_pct": null,
+    "state": "UNRESOLVED"
+  },
+  {
+    "timestamp": "2026-02-17T20:19:27Z",
+    "status": "ATTEMPT_START",
+    "attempt": 2,
+    "run_tag": "Poly2toy_B_legacy_ref2_gf2.0_nt1e-07",
+    "grid_factor": 2.0,
+    "newton_tol": 1e-07,
+    "backend": "wrapper"
+  },
+  {
+    "timestamp": "2026-02-17T20:19:27Z",
+    "status": "ATTEMPT_RESULT",
+    "attempt": 2,
+    "run_tag": "Poly2toy_B_legacy_ref2_gf2.0_nt1e-07",
+    "converged": false,
+    "max_epsratio": 9.99,
+    "delta_total_max_pct": null,
+    "state": "UNRESOLVED"
+  },
+  {
+    "timestamp": "2026-02-17T20:19:27Z",
+    "status": "ATTEMPT_START",
+    "attempt": 3,
+    "run_tag": "Poly2toy_B_legacy_ref3_gf3.0_nt1e-08",
+    "grid_factor": 3.0,
+    "newton_tol": 1e-08,
+    "backend": "wrapper"
+  },
+  {
+    "timestamp": "2026-02-17T20:19:27Z",
+    "status": "ATTEMPT_RESULT",
+    "attempt": 3,
+    "run_tag": "Poly2toy_B_legacy_ref3_gf3.0_nt1e-08",
+    "converged": false,
+    "max_epsratio": 9.99,
+    "delta_total_max_pct": null,
+    "state": "UNRESOLVED"
+  },
+  {
+    "timestamp": "2026-02-17T20:19:27Z",
+    "status": "END",
+    "final_state": "UNRESOLVED"
+  }
+]
