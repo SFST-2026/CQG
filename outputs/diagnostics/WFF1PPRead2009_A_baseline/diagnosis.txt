@@ -1,0 +1,9 @@
+Run ID: WFF1PPRead2009_A_baseline
+EOS: WFF1-PP(Read2009)
+Variant: A (case: A_baseline)
+Status: accepted
+Reason: Included in summary table; epsratio within configured thresholds for this run.
+max_epsratio: 0
+Key observables: Mmax=1.66606 Msun, R_1.4=6.59615 km, Lambda_1.4=19.3113
+Raw outputs: outputs/WFF1-PP(Read2009)/A_baseline/ (see mr.png, mr_lambda.csv)
+Note: epsratio_profile.csv is a diagnostic profile consistent with max_epsratio; replace with solver-exported tov_profile.csv for physical radial profiles.
