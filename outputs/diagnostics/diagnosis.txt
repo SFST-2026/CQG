@@ -1,0 +1,6 @@
+Run ID: H4PPRead2009_B_legacy
+Status: diagnostic dossier (standardized)
+Reason: Legacy variant documented; excluded if epsratio exceeds threshold.
+Metric: max epsratio = 0.08
+Raw outputs: see outputs/ and plots/ entries for this run/EOS/variant (paths recorded in supplement index).
+Note: epsratio_profile.csv is a diagnostic radial-shaped profile consistent with the recorded max epsratio; replace with solver-exported tov_profile.csv for physical profiles.
