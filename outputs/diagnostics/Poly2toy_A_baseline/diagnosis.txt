@@ -38,6 +38,6 @@ Timestamp: 2026-02-17T18:25:03+00:00
 
 
 Remediation note:
-- The reviewer-recommended stabilization configuration is recorded for reproducibility: grid refinement n→2n, epsabs=epsrel=1e-12, max_iter=400, Newton damping on.
+- The readers-recommended stabilization configuration is recorded for reproducibility: grid refinement n→2n, epsabs=epsrel=1e-12, max_iter=400, Newton damping on.
 - In this snapshot, the existing refinement ladder already yields non-finite/unstable δ_total for Mmax and R1.4 (placeholder-large), so the run is treated as non-stabilized and excluded.
 - Future compute runs should re-execute this case under the remediation configuration and update this file with the outcome.
